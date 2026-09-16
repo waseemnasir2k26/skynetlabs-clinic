@@ -2,6 +2,10 @@
 
 UK Clinical Lead Nurse consultancy — CQC compliance, safeguarding audits, care planning, policy writing.
 
+## Status
+
+Last reviewed: September 2026 · release v2026.09
+
 ## Stack
 
 - Next.js 16 · App Router · React 19 · TypeScript
