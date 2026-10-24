@@ -1,89 +1,21 @@
-# SKYNETLABS Clinic
+# SkynetLabs Clinic, consultancy site demo
 
-UK Clinical Lead Nurse consultancy — CQC compliance, safeguarding audits, care planning, policy writing.
+Site template for a UK clinical lead nurse consultancy (CQC compliance, safeguarding audits, care planning, policy writing). Next.js 16, React 19, TypeScript, Tailwind v4, React Three Fiber hero (helix, particles, orb), Framer Motion.
 
-## Status
-
-Last reviewed: October 2026 · release v2026.10
-
-## Stack
-
-- Next.js 16 · App Router · React 19 · TypeScript
-- Tailwind CSS v4 (@theme)
-- React Three Fiber + Drei — cinematic 3D hero (DNA helix + particles + distorted orb)
-- Framer Motion — scroll + state animations
-- Fraunces (display) + Inter (body) via next/font
-
-## Local dev
+## Run it
 
 ```bash
 npm install
-npm run dev
+npm run dev      # http://localhost:3000
+npm run build && npm start
 ```
 
-Opens at http://localhost:3000.
+## Before real use
 
-## Build
+Testimonials, contact details, the NMC PIN flow, ICO number and the privacy, terms and cookie pages are placeholders.
 
-```bash
-npm run build
-npm start
-```
+No license file: all rights reserved unless the owner adds one.
 
-## Deploy (Vercel)
+---
 
-```bash
-vercel --prod
-```
-
-Or connect GitHub repo at [vercel.com/new](https://vercel.com/new).
-
-## Brand tokens
-
-- `--color-navy` `#0A2540`
-- `--color-teal` `#0F766E`
-- `--color-teal-glow` `#2DD4BF`
-- `--color-ivory` `#FAF7F2`
-- `--color-rose` `#E11D48`
-
-## Structure
-
-```
-src/
-  app/
-    layout.tsx       # fonts + metadata
-    page.tsx         # section composition
-    globals.css      # theme tokens + utilities
-  components/
-    Navbar.tsx
-    Hero.tsx         # 3D canvas wrapper
-    HeroCanvas.tsx   # R3F scene (client-only)
-    Services.tsx
-    About.tsx
-    Process.tsx
-    Testimonials.tsx
-    FAQ.tsx
-    Contact.tsx
-    Footer.tsx
-    Logo.tsx
-```
-
-## Replace before launch
-
-- Testimonials — currently sample quotes.
-- Contact email/phone — placeholders (`hello@skynetlabs-clinic.test`, `+44 20 0000 0000`).
-- NMC PIN verification flow.
-- ICO registration number in footer.
-- Privacy / Terms / Cookies routes.
-
-## License
-
-All rights reserved © 2026 SKYNETLABS Clinic.
-
-## Work with SkynetLabs
-
-Built by [Waseem Nasir](https://www.skynetjoe.com/?utm_source=github&utm_medium=readme&utm_campaign=skynetlabs-clinic) at SkynetLabs — n8n + AI automation for small businesses.
-
-- Hire on Fiverr: https://www.fiverr.com/agencies/skynetjoellc
-- Hire on Upwork: https://www.upwork.com/freelancers/muhammadwaseemnasir
-- Book a free call: https://calendly.com/skynetlabs/schedule-a-free-consultation
+Demo built by SkynetLabs (https://skynetjoe.com).
